@@ -1,0 +1,134 @@
+/* scratch.css - Custom stylesheet for drone page */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    color: #e94560;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #e94560;
+    font-family: Georgia, serif;
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #16c79a;
+    font-size: 1.1rem;
+}
+
+a {
+    color: #e94560;
+}
+
+a:hover {
+    color: #16c79a;
+}
+
+/* Navigation */
+.nav-bar {
+    background-color: #16213e;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2px solid #e94560;
+}
+
+.nav-bar a {
+    color: #e0e0e0;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Content area */
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+/* Intro box */
+.intro-section {
+    background-color: #16213e;
+    padding: 25px;
+    margin: 25px 0;
+    border-left: 4px solid #e94560;
+}
+
+/* Image area */
+.image-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.image-section img {
+    max-width: 100%;
+}
+
+.caption {
+    font-size: 0.85rem;
+    color: #888;
+    font-style: italic;
+}
+
+/* Video area */
+.video-section {
+    margin: 30px 0;
+    background-color: #16213e;
+    padding: 25px;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Tableau area */
+.tableau-section {
+    margin: 30px 0;
+    background-color: #16213e;
+    padding: 25px;
+    text-align: center;
+}
+
+.emphasizeText {
+    color: #e94560;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #e94560;
+    color: #888;
+    font-size: 0.85rem;
+}

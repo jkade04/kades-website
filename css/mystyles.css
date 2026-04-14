@@ -1,0 +1,87 @@
+/* Custom styles for Kade Johnson's site */
+
+/* Resume section titles */
+.resume-section-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #0085A1;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e9ecef;
+}
+
+/* Resume entry heading (company/school name) */
+.resume-entry-title {
+    font-family: 'Lora', serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 0.15rem;
+}
+
+/* Resume entry role/degree */
+.resume-entry-role {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 0.25rem;
+}
+
+/* Resume entry meta (location, dates) */
+.resume-entry-meta {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.82rem;
+    color: #888;
+    margin-bottom: 0.6rem;
+}
+
+/* Resume bullet list */
+.resume-bullets {
+    padding-left: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.resume-bullets li {
+    font-size: 0.92rem;
+    color: #444;
+    margin-bottom: 0.35rem;
+    line-height: 1.55;
+}
+
+/* Resume section card */
+.resume-section {
+    margin-bottom: 0.5rem;
+}
+
+/* Resume divider */
+.resume-divider {
+    border: 0;
+    border-top: 1px solid #e9ecef;
+    margin: 1.5rem 0;
+}
+
+/* Skills tags */
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0;
+    list-style: none;
+}
+
+.skill-tags li {
+    background: #f0f7fa;
+    color: #0085A1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 1px solid #d0e8ef;
+}
